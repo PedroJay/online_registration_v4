@@ -59,6 +59,12 @@ hr {
     align-items: stretch;
 }
 
+fieldset {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .field {
     border: 0px;
     padding: 20px 20px;
@@ -159,6 +165,10 @@ input:focus {
     background: #4ebbb5;
     border-radius: 5px;
     border: 0;
+    margin-top: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .copy {
@@ -185,17 +195,15 @@ input:focus {
     .field2 {
         width: 535px;
         justify-content: right;
-
-
     }
 
     .field3 {
         width: 200px;
+        margin-bottom: 40px;
     }
     
     .field-head {
         width: 165px;
-        margin-left: -15px;
     }
 
     .dbl {
@@ -205,29 +213,15 @@ input:focus {
     .cat {
         padding-top: 25px;
         font-size: 18px;
-        margin-left: -15px;
 
     }
-
-    .intro-sub {
-        margin-left: -15px;
-    }
-
-    input[type=radio],
-    input[type=checkbox] {
-        margin-left: -15px;
-    }
-
-    .field-head2 {
-        margin-left: -15px;
+    .intro {
+        padding: 40px 0;
     }
 
     .fieldtext {
         width: 700px;
-        margin-left: -15px;
     }
 
-    hr {
-        margin-top: 30px;
-    }
+
 }
