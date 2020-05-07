@@ -1,0 +1,233 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+p {
+    font-size: 14px;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #2d3945;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-header {
+    background: tomato;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.intro {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dbl {
+    border-top: 4px solid #2d3945;
+    border-bottom: 2px solid #2d3945;
+    border-right: none;
+    border-left: none;
+    padding: 2px;
+    width: 90%;
+}
+
+.intro-sub {
+    opacity: 0.6;
+}
+
+.cat {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.form-area {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.field {
+    border: 0px;
+    padding: 20px 20px;
+    background: #eff0f1;
+    width: 100%;
+    border-radius: 5px;
+    margin: 15px 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type=text]::placeholder,
+input[type=email]::placeholder {
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.field2 {
+    border: 0px;
+    padding: 20px 0px;
+    background: #eff0f1;
+    width: 100%;
+    color: lightslategrey;
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding-left: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.field3 {
+    border: 0px;
+    padding: 20px 0px;
+    background: #eff0f1;
+    width: 40%;
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding-left: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fieldtext {
+    border: 0px;
+    height: 120px;
+    padding: 20px 0px;
+    background: #eff0f1;
+    width: 100%;
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.opt {
+    color: #000;
+}
+
+.dfield {
+    display: none;
+}
+
+.c-box {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.c-text {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+input:focus {
+    border:  1px solid darkblue;
+    transition: 1s;
+    background-color: lightgoldenrodyellow;
+    outline: 0;
+}
+
+.field-head,
+.field-head2 {
+    opacity: 0.7;
+    font-size: 14px;
+    display: block;
+}
+
+.btn {
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    background: #4ebbb5;
+    border-radius: 5px;
+    border: 0;
+}
+
+.copy {
+    opacity: 0.5;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .full-field {
+        display: flex;
+        align-items: baseline;
+
+    }
+    
+    .form-area {
+    width: 700px;
+
+    }
+
+    .field,
+    .field2 {
+        width: 535px;
+        justify-content: right;
+
+
+    }
+
+    .field3 {
+        width: 200px;
+    }
+    
+    .field-head {
+        width: 165px;
+        margin-left: -15px;
+    }
+
+    .dbl {
+        width: 700px;
+    }
+
+    .cat {
+        padding-top: 25px;
+        font-size: 18px;
+        margin-left: -15px;
+
+    }
+
+    .intro-sub {
+        margin-left: -15px;
+    }
+
+    input[type=radio],
+    input[type=checkbox] {
+        margin-left: -15px;
+    }
+
+    .field-head2 {
+        margin-left: -15px;
+    }
+
+    .fieldtext {
+        width: 700px;
+        margin-left: -15px;
+    }
+
+    hr {
+        margin-top: 30px;
+    }
+}
